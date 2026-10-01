@@ -64,15 +64,15 @@ export const botConfig = {
       { question: "What is your name?", required: true },
       { question: "How old are you?", required: true },
       { question: "Why do you want to join?", required: true },
-      { question: "Why do you want to join?", required: true },
-      { question: "Why do you want to join?", required: true },
-      { question: "Why do you want to join?", required: true },
-      { question: "Why do you want to join?", required: true },
-      { question: "Why do you want to join?", required: true },
-      { question: "Why do you want to join?", required: true },
-      { question: "Why do you want to join?", required: true },
-      { question: "Why do you want to join?", required: true },
-      { question: "Why do you want to join?", required: true },
+      { question: "Why?", required: true },
+      { question: "Here?", required: true },
+      { question: "Yo?", required: true },
+      { question: "Where?", required: true },
+      { question: "Yo?", required: true },
+      { question: "Go?", required: true },
+      { question: "The?", required: true },
+      { question: "Hey?", required: true },
+      { question: "Hi?", required: true },
     ],
 
     // Embed colors by application status.
@@ -83,7 +83,7 @@ export const botConfig = {
     },
 
     // How long users must wait before submitting another application (hours).
-    applicationCooldown: 24,
+    applicationCooldown: 2,
 
     // Auto-delete denied applications after this many days.
     deleteDeniedAfter: 7,
