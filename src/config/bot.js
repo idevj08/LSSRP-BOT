@@ -64,6 +64,15 @@ export const botConfig = {
       { question: "What is your name?", required: true },
       { question: "How old are you?", required: true },
       { question: "Why do you want to join?", required: true },
+      { question: "Why do you want to join?", required: true },
+      { question: "Why do you want to join?", required: true },
+      { question: "Why do you want to join?", required: true },
+      { question: "Why do you want to join?", required: true },
+      { question: "Why do you want to join?", required: true },
+      { question: "Why do you want to join?", required: true },
+      { question: "Why do you want to join?", required: true },
+      { question: "Why do you want to join?", required: true },
+      { question: "Why do you want to join?", required: true },
     ],
 
     // Embed colors by application status.
@@ -83,7 +92,7 @@ export const botConfig = {
     deleteApprovedAfter: 30,
 
     // Role IDs allowed to manage applications.
-    managerRoles: [], // Will be populated from environment or database
+    managerRoles: [1549469015888494723], // Will be populated from environment or database
   },
 
   // =========================
